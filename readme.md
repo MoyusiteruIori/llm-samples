@@ -4,7 +4,7 @@ This repository contains example code for the winter break study sharing session
 
 If you want to run the code in this repository:
 
-- Firstly, rename config.json.template to config.json and replace OPENAI_API_KEY with your own API key.
+- Firstly, rename config.json.template to config.json, replace `OPENAI_API_KEY` and `SERPAPI_API_KEY` with your own API key.
 
 - It is recommended to use a separate Python execution environment. You can use conda, virtual environment, or any other tool. Here is an example of setting up a virtual environment:
 
