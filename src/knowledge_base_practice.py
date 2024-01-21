@@ -56,4 +56,3 @@ if __name__ == "__main__":
         result = qa_chain.invoke({"question": question, "chat_history": chat_history})
         chat_history.append((question, result["answer"]))
         print(result["answer"])
-        print(type(result))
